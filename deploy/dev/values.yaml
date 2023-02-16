@@ -2,8 +2,8 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 helm-static_application:
-  nameOverride: "static-application"
-  fullnameOverride: "static-application"
+  nameOverride: "api_aplication"
+  fullnameOverride: "api-application"
   #proyecto: filenet-back-dev
   replicaCount: 1
   image:
